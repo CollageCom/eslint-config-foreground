@@ -57,7 +57,7 @@ module.exports = {
     // Enforce line breaks between arguments of a function call.
     'function-call-argument-newline': 'off',
     // Enforce consistent line breaks inside function parentheses.
-    'function-paren-newline': 'error',
+    'function-paren-newline': ['error', 'consistent'],
     // Disallow specified identifiers.
     'id-denylist': 'off',
     // Enforce minimum and maximum identifier lengths.

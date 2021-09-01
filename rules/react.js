@@ -63,7 +63,7 @@ module.exports = {
     // Prevent extra closing tags for components without children.
     'react/self-closing-comp': 'error',
     // No .bind() or Arrow Functions in JSX Props.
-    'react/jsx-no-bind': ['error', {
+    'react/jsx-no-bind': ['warn', {
       ignoreRefs: true,
       allowArrowFunctions: true,
       allowFunctions: false,

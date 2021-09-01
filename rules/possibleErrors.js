@@ -59,7 +59,7 @@ module.exports = {
     // Disallow returning values from Promise executor functions.
     'no-promise-executor-return': 'off',
     // Disallow calling some `Object.prototype` methods directly on objects.
-    'no-prototype-builtins': 'error',
+    'no-prototype-builtins': 'warn',
     // Disallow multiple spaces in regular expressions.
     'no-regex-spaces': 'error',
     // Disallow returning values from setters.
