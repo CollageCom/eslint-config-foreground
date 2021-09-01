@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-foreground",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint Config for JavaScript/Typescript Foreground Style",
   "main": "index.js",
   "scripts": {
