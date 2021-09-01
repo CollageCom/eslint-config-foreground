@@ -68,7 +68,10 @@ module.exports = {
       allowUnboundThis: true,
     }],
     // Require `const` declarations for variables that are never reassigned after declared.
-    'prefer-const': 'error',
+    'prefer-const': ['error', {
+      destructuring: 'any',
+      ignoreReadBeforeAssign: true,
+    }],
     // Require destructuring from arrays and/or objects.
     'prefer-destructuring': 'warn',
     // Disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals.
