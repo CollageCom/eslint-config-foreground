@@ -10,7 +10,7 @@ module.exports = {
     // Disallow unnecessary constructors.
     'no-useless-constructor': 'off',
     // Disallow the use of undeclared variables unless mentioned in `/*global */` comments.
-    'no-undef': 'error', // Desired 'error', but it yields false positives.
+    'no-undef': 'off',
     // Require that member overloads be consecutive.
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     // Requires using either `T[]` or `Array<T>` for arrays.
