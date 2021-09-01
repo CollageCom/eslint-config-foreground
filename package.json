@@ -17,13 +17,7 @@
     "foreground",
     "typescript"
   ],
-  "author": "CollageCom",
-  "contributors": [
-    {
-      "name": "Pedro da Rocha Pinto",
-      "email": "pedromdrp@msn.com"
-    }
-  ],
+  "author": "Pedro da Rocha Pinto <pedromdrp@msn.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CollageCom/eslint-config-foreground/issues"
