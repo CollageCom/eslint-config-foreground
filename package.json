@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-foreground",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "ESLint Config for JavaScript/Typescript Foreground Style",
   "main": "index.js",
   "scripts": {
-    "start": "tsc --init",
+    "release": "standard-version",
     "test": "eslint tests/**"
   },
   "repository": {
@@ -17,7 +17,13 @@
     "foreground",
     "typescript"
   ],
-  "author": "",
+  "author": "CollageCom",
+  "contributors": [
+    {
+      "name": "Pedro da Rocha Pinto",
+      "email": "pedromdrp@msn.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CollageCom/eslint-config-foreground/issues"

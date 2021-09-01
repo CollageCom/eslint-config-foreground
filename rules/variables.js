@@ -14,12 +14,12 @@ module.exports = {
       {
         name: 'isFinite',
         message:
-          'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite',
+          'Use Number.isFinite instead of global isFinite',
       },
       {
         name: 'isNaN',
         message:
-          'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
+          'Use Number.isNaN instead of global isNaN',
       },
     ].concat(confusingBrowserGlobals),
     // Disallow variable declarations from shadowing variables declared in the outer scope.
