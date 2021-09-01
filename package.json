@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-foreground",
+  "version": "0.0.1",
+  "description": "ESLint Config for JavaScript/Typescript Foreground Style",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --init",
+    "test": "eslint tests/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollageCom/eslint-config-foreground.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "foreground",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CollageCom/eslint-config-foreground/issues"
+  },
+  "homepage": "https://github.com/CollageCom/eslint-config-foreground#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "confusing-browser-globals": "^1.0.10",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
