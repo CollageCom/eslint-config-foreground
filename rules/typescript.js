@@ -5,12 +5,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
-    // Disallow unused variables.
-    'no-unused-vars': 'off',
-    // Disallow unnecessary constructors.
-    'no-useless-constructor': 'off',
-    // Disallow the use of undeclared variables unless mentioned in `/*global */` comments.
-    'no-undef': 'off',
     // Require that member overloads be consecutive.
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     // Requires using either `T[]` or `Array<T>` for arrays.
@@ -51,19 +45,16 @@ module.exports = {
     // Enforce `includes` method over `indexOf` method.
     '@typescript-eslint/prefer-includes': 'error',
     // Enforce consistent spacing before and after commas.
-    'comma-spacing': 'off',
     '@typescript-eslint/comma-spacing': ['error', { before: false, after: true }],
     // Enforce consistent spacing inside braces
-    'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     // Enforce space around infix operators.
-    'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': ['error', { int32Hint: false }],
     // Enforce consistent spacing before and after keywords.
-    'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': ['error', { before: true, after: true }],
     // Enforce consistent brace style for blocks.
-    'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs'],
+    // Disallow the use of variables before they are defined.
+    '@typescript-eslint/no-use-before-define': 'error',
   },
 };

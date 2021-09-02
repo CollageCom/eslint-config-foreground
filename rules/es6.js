@@ -48,7 +48,7 @@ module.exports = {
     // Disallow unnecessary computed property keys in objects and classes.
     'no-useless-computed-key': 'error',
     // Disallow unnecessary constructors.
-    'no-useless-constructor': 'error',
+    'no-useless-constructor': 'off',
     // Disallow renaming import, export, and destructured assignments to the same name.
     'no-useless-rename': ['error', {
       ignoreDestructuring: false,

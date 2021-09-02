@@ -27,22 +27,14 @@ module.exports = {
     // Disallow identifiers from shadowing restricted names.
     'no-shadow-restricted-names': 'error',
     // Disallow the use of undeclared variables unless mentioned in `/*global */` comments.
-    'no-undef': 'error',
+    'no-undef': 'off',
     // Disallow initializing variables to `undefined`.
     'no-undef-init': 'error',
     // Disallow the use of `undefined` as an identifier.
     'no-undefined': 'off',
     // Disallow unused variables.
-    'no-unused-vars': ['error', {
-      vars: 'all',
-      args: 'after-used',
-      ignoreRestSiblings: true,
-    }],
+    'no-unused-vars': 'off',
     // Disallow the use of variables before they are defined.
-    'no-use-before-define': ['error', {
-      functions: true,
-      classes: true,
-      variables: true,
-    }],
+    'no-use-before-define': 'off',
   },
 };

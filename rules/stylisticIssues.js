@@ -9,7 +9,7 @@ module.exports = {
     // Disallow or enforce spaces inside of blocks after opening block and before closing block.
     'block-spacing': ['error', 'always'],
     // Enforce consistent brace style for blocks.
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'brace-style': 'off',
     // Enforce camelcase naming convention.
     'camelcase': 'warn',
     // Enforce or disallow capitalization of the first letter of a comment.
@@ -23,7 +23,7 @@ module.exports = {
       functions: 'only-multiline',
     }],
     // Enforce consistent spacing before and after commas.
-    'comma-spacing': ['error', { before: false, after: true }],
+    'comma-spacing': 'off',
     // Enforce consistent comma style.
     'comma-style': ['error', 'last', {
       exceptions: {
@@ -95,15 +95,7 @@ module.exports = {
     // Enforce consistent spacing between keys and values in object literal properties.
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
     // Enforce consistent spacing before and after keywords.
-    'keyword-spacing': ['error', {
-      before: true,
-      after: true,
-      overrides: {
-        return: { after: true },
-        throw: { after: true },
-        case: { after: true }
-      }
-    }],
+    'keyword-spacing': 'off',
     // Enforce position of line comments.
     'line-comment-position': 'off',
     // Enforce consistent linebreak style.
@@ -229,7 +221,7 @@ module.exports = {
     // Enforce consistent line breaks after opening and before closing braces.
     'object-curly-newline': 'off',
     // Enforce consistent spacing inside braces.
-    'object-curly-spacing': ['error', 'always'],
+    'object-curly-spacing': 'off',
     // Enforce placing object properties on separate lines.
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
     // Enforce variables to be declared either together or separately in functions.
@@ -279,7 +271,7 @@ module.exports = {
     // Enforce consistent spacing inside parentheses.
     'space-in-parens': ['error', 'never'],
     // Require spacing around infix operators.
-    'space-infix-ops': 'error',
+    'space-infix-ops': 'off',
     // Enforce consistent spacing before or after unary operators.
     'space-unary-ops': ['error', {
       words: true,
