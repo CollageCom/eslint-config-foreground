@@ -45,6 +45,8 @@ module.exports = {
     'react/jsx-indent': ['error', 2, { indentLogicalExpressions: true }],
     // Validate props indentation in JSX.
     'react/jsx-indent-props': ['error', 2],
+    // Detect missing key prop.
+    'react/jsx-key': 'error',
     // Limit maximum of props on a single line in JSX when the element is multiline.
     'react/jsx-max-props-per-line': ['error', { when: 'multiline' }],
     // Prevent duplicate props in JSX.
