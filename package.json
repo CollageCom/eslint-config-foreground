@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-foreground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint Config for JavaScript/Typescript Foreground Style",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "engines": {
     "npm": ">=8.8.0",
-    "node": ">=18.1.0"
+    "node": ">=16.16.0"
   },
   "repository": {
     "type": "git",
