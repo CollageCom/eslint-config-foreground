@@ -110,7 +110,7 @@ module.exports = {
     // Enforce a convention in the order of require() / import statements.
     'import/order': ['error', { groups: [['builtin', 'external', 'internal']] }],
     // When there is only a single export from a module, prefer using default export over named export.
-    'import/prefer-default-export': 'error',
+    'import/prefer-default-export': 'off',
     // Warn if a module could be mistakenly parsed as a script by a consumer leveraging Unambiguous
     // JavaScript Grammar to determine correct parsing goal.
     'import/unambiguous': 'off',
